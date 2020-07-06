@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 500px;
+    font-size: 10px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.line {
+    display: block;
+    height: 2.5px;
+    background-color: #e67e22;
+    content: " ";
+    width: 70px;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+
+/* NAVİGASYON */
+
+.logo {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+    margin-right: 15%;;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.main-nav li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: 700;
+    border-bottom: 2px solid rgba(9, 132, 227, 0);
+}
+
+.main-nav li a:active,
+.main-nav li a:hover {
+    border-bottom: 2px solid #e67e22;
+    color: #e67e22;
+}
+
+.navi-line {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 13px;
+    cursor: context-menu;
+}
+
+/* ANA MENÜ */
+
+.anamenu img {
+    margin-top: 30px;
+    box-shadow: 0 10px 5px grey;
+    width: 100%;
+    max-height: 100%;
+}
+
+/* HİZMETLER */ 
+
+.hizmetler {
+    margin-bottom: 50px;
+}
+
+.hizmet-butun {
+    margin-left: 20%;
+}
+
+.hizmet-giris {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hizmet-bilgiler {
+    margin: 30px 30px 30px 0;
+}
+
+.hizmet-bilgiler p {
+    margin-top: 10px;
+    font-size: 12px;
+    width: 90%;
+    
+}
+
+.hizmetler img {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+/* ÜRÜNLER */
+
+.urunler {
+    background-color: #e6e6e6;
+    padding-top: 1px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.urunler img {
+    display: inline-block;
+    height: 160px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 0 #e67e22;
+    border: 3px solid #ffffff
+}
+
+.urunler-butun {
+    margin-left: 23%;
+}
+
+.urun-bilgi {
+    margin: 20px 0 0 0;
+}
+
+.urun-bilgi h2 {
+    text-transform: uppercase;
+}
+
+.urun-bilgi p {
+    margin-top: 15px;
+    font-size: 105%;
+}
+
+.line2 {
+    display: block;
+    height: 2.5px;
+    background-color: #e67e22;
+    content: " ";
+    width: 35px;
+    margin-top: 5px;
+    float: left;
+}
+
+ul {
+    list-style-type: "≫";
+    margin-top: 5px;
+}
+
+ul h3 {
+    color: #e67e22;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+ul li {
+    font-size: 110%;
+    height: 20px;
+}
+
+.button {
+    display: inline-block;
+    border: none;
+    color: white;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.button1 { 
+    background-color: #b5b5b5;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 80px;
+    
+}
+
+.button1:active,
+.button1:hover {
+    background-color: #808080;
+}
+
+.button2 {
+    background-color: #e67e22;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 47%;
+    width: 150px;
+}
+
+.button2:active,
+.button2:hover {
+    background-color: #d4711a;
+}
+
+/* REFERANSLAR */
+
+.referanslar {
+    padding-bottom: 20px;
+}
+
+.referans-resimler {
+    margin-left: 26%;
+}
+
+.referans-resimler img {
+    display: inline-block;
+    height: 150px;
+    margin-left: 5px;
+}
+
+.referans-ikon {
+    display: inline-block;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+/* AÇIKLAMA */
+
+.aciklama {
+    background-image: url(resimler/vakum-makineleri-konusunda-uzman-top.jpg);
+    text-align: center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.aciklama h1 {
+    color: white;
+    padding-top: 50px;
+}
+
+.aciklama .line {
+    background-color: white;
+}
+
+.aciklama p {
+    font-size: 120%;
+}
+
+/* İLETİŞİM */
+
+.iletisim-bilgi {
+    margin-left: 32%;
+    padding-bottom: 50px;
+}
+
+.iletisim-bilgi div {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.iletisim-bilgi p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.iletisim-ikon {
+    color: #e67e22;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+/* FOOTER */
+
+footer {
+    background-image: url(resimler/footer.jpg);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-left: 15%;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.footer-bilgiler {
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+footer ul {
+    display: inline-block;
+    margin-right: 70px;
+    
+}
+
+footer ul li {
+    color: white;
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+
+footer ul:last-child {
+    vertical-align: top;
+}
+
+footer ul:last-child li {
+    list-style-type: none;
+}
