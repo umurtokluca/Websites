@@ -1,0 +1,337 @@
+/* blue: #0984e3 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #000000;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+}
+
+/* -------------------------------------------- */
+/* HEADER */
+/* -------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: white;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0 2rem 1.5em 0;
+}
+
+.main-nav li {
+    text-transform: uppercase;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(9, 132, 227, 0);;
+    transition: border-bottom 0.2s;
+    padding-bottom: 6px;
+}
+
+.main-nav li a:active,
+.main-nav li a:hover {
+    border-bottom: 2px solid #0984e3;
+}
+
+.metin {
+    display: flex;
+    margin: 8rem auto 0 auto;
+    align-items: center;
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.44);
+    text-align: justify;
+    padding-right: 1.5rem;
+}
+
+.metin h1 {
+    padding: 10px 0;
+}
+
+img {  
+    margin: 0.5rem 1.25rem;
+    height: 230px;
+    width: auto;
+    border-radius: 100%;
+}
+
+.iletisim-header {
+    display: none;
+}
+
+.iletisim-header ion-icon {
+    vertical-align: middle;
+    font-size: 20px
+}
+
+/* -------------------------------------------- */
+/* GENEL */
+/* -------------------------------------------- */
+
+section {
+    text-align: center;
+}
+
+.section-title {
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+.line {
+    display: flex;
+    background-color: #0984e3;
+    height: 2.5px;
+    width: 70px;
+    margin: 5px auto;
+}
+
+ion-icon {
+    font-size: 35px;
+    margin-right: 15px;
+}
+
+.icon-title {
+    display: inline-block;
+}
+
+.top-button {
+    color: #0984e3;
+    float: right;
+    padding-top: 30px;
+    transition: color 0.2s;
+}
+
+.top-button:hover {
+    color: #006cbf;
+}
+
+.mobile-nav-icon {
+    display: none;
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.mobile-nav-icon ion-icon {
+    font-size: 200%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    background: grey;
+    width: 200px;
+    border: 1px solid black;
+}
+
+  ul {
+      list-style: none;
+  }
+
+/* -------------------------------------------- */
+/* YETKİNLİKLER */
+/* -------------------------------------------- */
+
+.yetkinlikler {
+    padding: 0.5rem 0 4rem 0;
+}
+
+.radial-div {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+/*** OUTSOURCE ***/
+
+/*** RADIAL PROGRESS ***/
+/* Circumference = 2πr */
+/* π = 3.1415926535898 */
+/* r = 35 */
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1rem;
+    transform: rotate(-90deg);
+    width: 100%;
+}
+svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129; /* Circumference */
+    stroke-width: 10;
+}
+svg.radial-progress circle.incomplete {
+    opacity: 0.25;
+}
+svg.radial-progress circle.complete {
+    stroke-dasharray: 219.91148575129; /* Circumference */
+}
+svg.radial-progress text {
+    text-anchor: middle;
+}
+
+/*** COLORS ***/
+
+svg.first-circle circle {
+    stroke:#e34c26;
+}
+
+svg.second-circle circle {
+    stroke:#264de4;
+}
+
+svg.third-circle circle {
+    stroke:#f0db4f;
+}
+
+svg.forth-circle circle {
+    stroke:#1f4964;
+}
+
+/************/
+
+/* -------------------------------------------- */
+/* DENEYİMLER */
+/* -------------------------------------------- */
+
+.deneyimler {
+    background: #f8f8f8;
+    padding: 0.5rem 0 4rem 0;
+}
+
+.deneyim-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.deneyim-box {
+    width: 20rem;    
+}
+
+/* -------------------------------------------- */
+/* EĞİTİM */
+/* -------------------------------------------- */
+
+.egitim {
+    padding: 0.5rem 0 4rem 0;
+}  
+
+.egitim-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+/* -------------------------------------------- */
+/* SERTİFİKA */
+/* -------------------------------------------- */
+
+.sertifikalar {
+    background: #f8f8f8;
+    padding: 0.5rem 0 4rem 0;
+}
+
+.sertifika-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2.3rem;
+}
+
+.sertifika-box {
+    margin: 2rem;
+}
+
+/* -------------------------------------------- */
+/* FOOTER */
+/* -------------------------------------------- */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    font-size: 80%;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.iletisim-footer {
+    color: #afafaf;
+    list-style: none;
+}
+
+.iletisim-footer ion-icon {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 10px 20px 0 0;
+}
+
+.social-links ion-icon {
+    font-size: 20px;
+}
+
+
+.social-links li a:link,
+.social-links li a:visited {
+    color: #afafaf;
+}
+
+.twitter,
+.linkedin,
+.github {
+    transition: color 0.2s;
+}
+
+.twitter:hover { color: #00aced; }
+.linkedin:hover { color: #007bb5; }
+.github:hover { color: #000000; }
+
+.buton:link,
+.buton:visited {
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #afafaf;
+    background-color: #afafaf;
+    border-radius: 200px;
+    padding: 10px 30px;
+    font-weight: 400;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.buton:active,
+.buton:hover {
+    background-color: #0984e3;
+    border: 2px solid #0984e3;
+    color: aliceblue;
+}
+
