@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1200px) {
+    .progress-bar {
+        width: 400px;
+    }
+    
+    .metin {
+        width: 1000px
+    }
+    
+    .deneyim-bilgi,
+    .egitim-bilgi {
+        display: block;
+    }
+    
+    .deneyim-bilgi:last-child,
+    .egitim-bilgi:nth-child(3) {
+        float: none;
+        padding-bottom: 25px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 90%;
+    }
+    
+    .metin {
+        width: 700px
+    }
+    
+    img {  
+    margin: 1px 10px;
+    height: 200px;
+    }
+    
+    .box:nth-child(3),
+    .box:nth-child(5) {
+    margin-left: 0;
+    }
+    
+    .box {
+        margin: 0 0 20px 0;
+        padding-left: 25%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 70%;
+    }
+    
+    .dark-icon ion-icon { font-size: 20px; }
+    
+    .mobile-nav-icon { display: inline-block; }
+    
+    .main-nav { 
+        display: none;
+        float: left; 
+        margin: 25px 0 0 100px;
+    }
+    
+    .main-nav li { display: block; }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 7px 0;
+        font-size: 80%;
+    }
+    
+    .metin {
+        width: 350px;
+    }
+    
+    .metin h1 {
+        font-size: 150%;
+    }
+    
+    img {
+        height: 120px;
+        padding-bottom: 
+    }
+    
+    .iletisim-header {
+        padding-top: 50px;
+        left: 20%
+        
+    }
+    
+    .box {
+        margin-top: 10px;
+    }
+    
+    .progress-bar {
+        width: 250px;
+    }
+    
+    .box {
+        padding-left: 30px;
+    }
+    
+    .top-button {
+        padding: 0;
+        margin-top: 70px;
+    }
+    
+    .buton {
+        margin-bottom: 15px;
+    }
+}
+    
+
+@media only screen and (max-width: 480px) {
+
+}
+
