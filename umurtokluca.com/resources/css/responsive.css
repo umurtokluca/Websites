@@ -1,0 +1,181 @@
+@media only screen and (max-width: 1200px) {
+    .progress-bar {
+        width: 400px;
+    }
+    
+    .metin {
+        width: 1000px
+    }
+    
+    .deneyim-bilgi,
+    .egitim-bilgi {
+        display: block;
+    }
+    
+    .deneyim-bilgi:last-child,
+    .egitim-bilgi:nth-child(3) {
+        float: none;
+        padding-bottom: 25px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1021px) {
+    body {
+        font-size: 90%;
+    }
+    
+    .metin {
+        width: 800px
+    }
+    
+    img {  
+    margin: 1px 10px;
+    height: 200px;
+    }
+    
+    .box:nth-child(3),
+    .box:nth-child(5) {
+    margin-left: 0;
+    }
+    
+    .box {
+        margin: 0 0 20px 0;
+        padding-left: 25%;
+    }
+
+    .radial-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+@media only screen and (max-width: 820px) {
+    body {
+        font-size: 80%;
+    }
+
+    header {
+        padding-top: 1px;
+    }
+    
+    .metin {
+        width: 700px
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+}
+    
+
+@media only screen and (max-width: 569px) {
+    body {
+        font-size: 70%;
+    }
+
+    header {
+        padding-top: 1px;
+    }
+    
+    .yetkinlikler,
+    .deneyimler,
+    .egitim {
+        padding-bottom: 2rem;
+    }
+
+    .metin {
+        margin-top: 10rem;
+        width: 350px;
+        padding: 1rem;
+    }
+
+    img {  
+        display: none;
+    }
+
+    .main-nav {
+        display: none;
+        position: absolute;
+    }
+
+    .main-nav li {
+        margin-top: 1rem;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+
+    .yetkinlikler h3 {
+        font-size: 90%;
+    }
+
+    .radial-container {
+        margin-top: 2rem;
+    }
+
+    .deneyim-container,
+    .egitim-container,
+    .sertifika-container {
+        display: inline-block;
+    }
+
+    .sertifika-container {
+        margin-left: 0;
+    }
+
+    footer {
+        display: block;
+        height: 60px;
+    }
+
+    .deneyim-box,
+    .egitim-box,
+    .sertifika-box {
+        margin-bottom: 15px;
+    }
+
+    .cv-download {
+        display: inline-block;
+        float: right;
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+
+    .buton:link,
+    .buton:visited {
+        font-size: 90%;
+        padding: 5px 5px;
+    }
+
+    .iletisim-header {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .iletisim-header ion-icon {
+        font-size: 15px;
+    }
+
+    .iletisim-footer {
+        display: none;
+    }
+
+    .social-links {
+        display: inline-block;
+        float: left;
+        margin-left: 15px;
+    }
+
+    .social-links ion-icon {
+        font-size: 17px;
+    }
+}
+

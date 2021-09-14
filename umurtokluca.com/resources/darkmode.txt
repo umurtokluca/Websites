@@ -1,0 +1,61 @@
+html
+
+<button class="dark-icon" title="Karanlık modu aç/kapa"><ion-icon name="contrast"></ion-icon></button>
+
+css
+
+button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+
+button ion-icon {
+    font-size: 20px;
+    margin: 0;
+    padding: 4px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-transition: color 0.2s, border 0.2s;
+    transition: color 0.2s, border 0.2s;
+}
+
+button:link,
+button:visited {
+    border: none;
+}
+
+button ion-icon:hover,
+button ion-icon:active {
+    color: #c1c1c1;
+    border: 2px solid #c1c1c1;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode section {
+    border-top: 1px solid black;
+}
+
+.dark-mode h6 {
+    color: black;
+}
+
+.dark-mode .progress-bar {
+    background-color: white;
+}
+
+.dark-mode .deneyimler {
+    background-color: #121212;
+}
+
+.dark-mode .sertifikalar {
+    background-color: #121212;
+}
